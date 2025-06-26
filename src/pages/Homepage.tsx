@@ -10,14 +10,14 @@ const Homepage = () => {
       <section>
         <div className='grid frid-cols-1 gap-8 items-center xl:grid-cols-[1fr_1.5fr] '>
           <div className='flex flex-col items-center text-center space-y-5 lg:space-y-7 pb-8 md:pt-10 '>
-            <h1 className='text-5xl font-semibold tracking-wider max-w-[22ch] md:text-5xl lg:text-6xl leading-15 md:leading-20'>
+            <h1 className='text-4xl font-semibold tracking-wider max-w-[22ch] md:text-5xl lg:text-6xl leading-15 md:leading-20 '>
               <span className='bg-gradient-to-t from-primary/50 to-primary/80 inline-flex rounded-lg px-2  overflow-hidden  tracking-wider text-primary-foreground mr-2.5  '>
                 Taskified AI
               </span>
               <br />
               Your AI Powered Productivity Gamechanger
             </h1>
-            <p className=' leading-10 max-w-[50ch] text-foreground/60'>
+            <p className=' leading-10 max-w-[50ch] px-5 text-foreground/60'>
               Smarter tasks, faster wins. Simplify your life and your team’s
               with the ultimate AI-powered to-do app!
             </p>

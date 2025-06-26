@@ -3,8 +3,8 @@ import { Separator } from '../ui/separator';
 const Footer = () => {
   return (
     <footer className='p-4 pb-0'>
-      <div className='container min-h-20 bg-background border border-b-0 rounded-t-xl py-4 flex flex-col items-center lg:flex-row lg:justify-between lg:px-10 md:mx-auto '>
-        <p className='text-center text-sm text-gray-800 dark:text-gray-400 py-4'>
+      <div className='container min-h-20 bg-background border border-b-0 rounded-t-xl py-4  flex flex-col items-center lg:flex-row lg:justify-between lg:px-10 md:mx-auto '>
+        <p className='text-center text-sm text-gray-800 dark:text-gray-400 py-4 mr-5'>
           © {new Date().getFullYear()} Taskified AI. All rights reserved.
         </p>
         <div>
